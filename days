@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main()
+{
+
+    int day;
+    printf("Input a number: ");
+    scanf("%d", & day);
+    switch(day){
+       case 1:
+          printf("ugh, it's Monday, again");
+          break;
+       case 2:
+          printf("it feels like seconds,Tuesday");
+          break;
+       case 3:
+          printf("It's party Wednesday");
+          break;
+       case 4: 
+          printf("gimme a break, Thursday");
+          break;
+       case 5: 
+          printf("night Friday");
+          break;
+       default:
+          printf("Invalid Day");
+       }
+       return 0;
+}
